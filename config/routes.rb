@@ -1,4 +1,7 @@
 Rails.application.routes.draw do
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
   root to: 'application#home'
+
+  # Pages routes
+  get '/o2team', to: 'pages#o2team'
 end
