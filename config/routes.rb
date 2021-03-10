@@ -4,4 +4,5 @@ Rails.application.routes.draw do
 
   # Pages routes
   get '/o2team', to: 'pages#o2team'
+  get '/mugshots', to: 'pages#mugshots'
 end
