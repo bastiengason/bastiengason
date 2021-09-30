@@ -1,0 +1,64 @@
+<style>
+
+  body {
+  margin: 0;
+  background-color: #F2F2F2;
+}
+
+.img-fit {
+  width: 70vw;
+  height: auto;
+  margin: 20px auto;
+}
+
+
+.parent {
+  height: 100vh;
+
+
+  /* Copy paste this to
+  center your element */
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 50px;
+}
+
+.element-to-center {
+  /* I just make the element beautiful */
+
+  font-size: 18px;
+  color: #211F1F;
+  font-family: "Hind Madurai", sans-serif;
+  font-weight: 500;
+  text-align: center;
+}
+
+.back {
+  position: fixed;
+  top: 10px;
+  left: 25px;
+  font-family: 'Roboto', sans-serif;
+  color: black !important;
+  text-decoration: none;
+}
+</style>
+
+<%= link_to "↩ back", "/", :class => 'back' %>
+
+<div class="parent">
+    <%= image_tag("IMG_5734.jpg", :class => "img-fit") %>
+    <%= image_tag("IMG_5737.jpg", :class => "img-fit") %>
+    <%= image_tag("IMG_5740.jpg", :class => "img-fit") %>
+    <%= image_tag("IMG_5747.jpg", :class => "img-fit") %>
+    <%= image_tag("IMG_5764.jpg", :class => "img-fit") %>
+    <%= image_tag("IMG_5773.jpg", :class => "img-fit") %>
+    <%= image_tag("IMG_5810.jpg", :class => "img-fit") %>
+    <%= image_tag("IMG_5814.jpg", :class => "img-fit") %>
+    <%= image_tag("IMG_5820.jpg", :class => "img-fit") %>
+    <%= image_tag("IMG_5845.jpg", :class => "img-fit") %>
+    <%= image_tag("IMG_5874.jpg", :class => "img-fit") %>
+    <%= image_tag("IMG_5879.jpg", :class => "img-fit") %>
+</div>
+
+
+<%= link_to "↩ back", "/", :class => 'back' %>

@@ -5,4 +5,11 @@ Rails.application.routes.draw do
   # Pages routes
   get '/o2team', to: 'pages#o2team'
   get '/mugshots', to: 'pages#mugshots'
+  get '/worlds-men', to: 'pages#worlds-men'
+  get '/worlds-women', to: 'pages#worlds-women'
+  get '/pr-recon', to: 'pages#pr-recon'
+  get '/baloise', to: 'pages#baloise'
+  get '/watersley', to: 'pages#watersley'
+  get '/ef-gp', to: 'pages#ef-gp'
+
 end
